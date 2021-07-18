@@ -7,7 +7,7 @@
     "test": "npm run lint && NODE_ENV=test c8 mocha",
     "test:ci": "NODE_ENV=test mocha",
     "lint": "standardx --fix",
-    "release": "release-it"
+    "release": "release-it --config config/release-it/config.js"
   },
   "repository": {
     "type": "git",
@@ -59,9 +59,6 @@
       "config/eslint",
       "config/release-it"
     ]
-  },
-  "release-it": {
-    "extends": "./config/release-it"
   },
   "engines": {
     "node": ">= 14"
