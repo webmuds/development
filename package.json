@@ -1,6 +1,6 @@
 {
   "name": "@webmuds/development",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Development packages for WebMUDs projects",
   "main": "index.js",
   "scripts": {
