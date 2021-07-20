@@ -30,9 +30,6 @@ Some libraries can use default configurations provided by this library. Add them
   },
   "eslingConfig" : {
     "extends": "@webmuds/development/config/eslint"
-  },
-  "release-it": {
-    "extends": "@webmuds/development/config/release-it"
   }
 }
 ```
